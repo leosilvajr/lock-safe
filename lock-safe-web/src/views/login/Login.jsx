@@ -35,11 +35,11 @@ const Login = () => {
         {error && <div className="text-red-500">{error}</div>}
 
         <div className="w-full">
-          <label className="text-black">Email</label>
+          <label className="text-black">Usuário</label>
           <input
             className="text-black h-10 w-full p-2 rounded"
             type="text"
-            placeholder="Digite seu email"
+            placeholder="Digite seu usuário"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
