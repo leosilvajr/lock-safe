@@ -6,9 +6,6 @@ namespace LockSafe.Application.Helpers
 {
     public static class CriptografiaHelper
     {
-
-
-        // Função para criptografar a senha
         public static string Criptografar(string senha)
         {
             using (Aes aesAlg = Aes.Create())
